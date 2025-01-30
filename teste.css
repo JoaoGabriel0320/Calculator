@@ -1,0 +1,70 @@
+body {
+    background-image: url('pexels-jplenio-1103970.jpg'); /* Substitua pelo caminho correto */
+    background-size: cover;  /* Faz a imagem cobrir toda a tela */
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat;  /* Evita repetições */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    background-color: rgba(236, 236, 236, 0.548);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    max-width: 350px;
+    padding: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    color: rgb(32, 77, 114);
+
+}
+#usuario{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 50px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+  
+}
+
+#senha{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 50px;
+    margin-bottom: 40px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+
+
+.btn-login{
+    border: none;
+    background-color: rgb(53, 133, 153);
+    color: aliceblue;
+    border-radius: 10px;
+    width: 100px;
+    height: 100%;
+    font-size: 15px;
+    margin-bottom: 7px;
+
+
+}
